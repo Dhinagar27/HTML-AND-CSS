@@ -1,0 +1,9 @@
+Chrome DevTools and css Box Model
+
+     chrome Devtools is easy way get a style for our button and page from  google pages by using inspect option and copy it 
+     and paste in our code
+
+css box model 
+       
+       how much space an element takes up
+       how for it is away from other elements
