@@ -1,0 +1,54 @@
+/* Select the element with the class "heading" */
+.heading {
+  font-family: Arial, sans-serif; /* Set the font family */
+  font-size: 24px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: #333; /* Set the text color */
+  text-decoration: underline; /* Add underline */
+}
+
+/* Select the element with the class "paragraph" */
+.paragraph {
+  font-family: Verdana, sans-serif; /* Set the font family */
+  font-size: 16px; /* Set the font size */
+  font-weight: normal; /* Set the font weight */
+  color: #666; /* Set the text color */
+  text-decoration: none; /* Remove any text decoration */
+}
+
+/* Select the element with the class "link" */
+.link {
+  font-family: Arial, sans-serif; /* Set the font family */
+  font-size: 14px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: #007bff; /* Set the text color */
+  text-decoration: none; /* Remove any text decoration */
+}
+
+/* Select the element with the class "highlight" */
+.highlight {
+  font-family: Courier New, monospace; /* Set the font family */
+  font-size: 18px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  color: #ff0000; /* Set the text color */
+  background-color: #ffff00; /* Set the background color */
+  text-decoration: none; /* Remove any text decoration */
+}   
+
+
+CSS Entity:
+
+    means that add dot or check mark in the text
+
+CSS Specificty:
+
+   means that that selector thats more specific has higher priority
+  
+   class name selector > element name selector
+
+span element
+
+width of the text 
+
+
+
