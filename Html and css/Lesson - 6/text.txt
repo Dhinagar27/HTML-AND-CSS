@@ -1,0 +1,9 @@
+HTML Structure
+    
+    filepath
+
+    style.css file creation
+
+    link tag (relation and href  are attributes)
+
+ 
