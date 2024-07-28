@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Challenge
+    </title>
+    <style>
+       .tweet-button{
+    background-color:rgb(63, 143, 180);
+    color:white;
+    height: 36px; /*height of the button*/
+    width: 90px;
+    border-radius: 20px;
+    border-width: 1px;
+    border: none;
+    cursor: pointer; /*changes the cursor to a pointer when hovering over the button*/  
+    font-size: 15px ;
+    font-weight: bold;
+    transition: box-shadow 0.5s; /*adds a smooth transition when the box-shadow changes*/ 
+    
+   
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.16); /*adds a shadow to the button*/
+
+  }
+  .img-cls{
+    width:50px ;
+    border-radius: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .p1{
+    color: gray;
+    font-size: large;
+    font-family: sans-serif;
+    vertical-align: middle;
+    border:none;
+  }
+    </style>
+    <head>
+      <img class="img-cls"     src="/project/thumbnails/thumbnail -1.webp" alt="">
+      <input class="p1" type="text" placeholder="What's happening?">
+      <button class="tweet-button">Tweet</button>
+    </head>
+  </head>
+</html>
