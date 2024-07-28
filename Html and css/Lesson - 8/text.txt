@@ -1,0 +1,13 @@
+CSS property
+    display property is the main reason for align the element in the web pages
+    
+    type 
+      
+      1.block element  = takes up the entire line
+          <p> takes the block element
+      
+      2.inline-block element = only takes up as much space as needed
+         <img > and <input>
+
+      3.inline element
+         <strong> and <span>
