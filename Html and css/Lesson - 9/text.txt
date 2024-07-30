@@ -1,0 +1,9 @@
+Div element
+     
+     div is the division (box)
+     it can contain other elements
+     containers
+
+     block element 
+          
+          take up the entire line in their container
