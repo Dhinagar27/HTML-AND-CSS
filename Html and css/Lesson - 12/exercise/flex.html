@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Flexbox Exercise
+    </title>
+
+    <style>
+      .flex{
+        display: flex;
+        margin-bottom: 10px;
+      }
+      .flex-2{
+        display: flex;
+        margin-bottom: 20px;
+      }
+
+      .flex-3{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+      }
+      .flex-4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 1px black;
+        height: 50px;
+      }
+    </style>
+  </head>
+
+
+
+  <body>
+    <div class="flex">
+      <div style="background-color: lightblue; width: 200px;">200px</div>
+      <div style="background-color: lightcoral; width: 75px;">75px</div>
+    </div>
+
+    <div class="flex-2">
+      <div style="background-color: lightcoral; width: 50px;">item 1</div>
+      <div style="background-color: lightblue; flex: 1;">item 2</div>
+      <div style="background-color: lightcoral; width: 75px;">item 3</div>
+    </div>
+
+    <div class="flex-3">
+      <div style="background-color: lightcoral; ">item 1</div>
+      <div style="background-color: lightblue;">item 2</div>
+      <div style="background-color: lightcoral; ">item 3</div>
+      <div style="background-color: lightblue;">item 4</div>
+    </div>
+
+    <div class="flex-4">
+      <div style="background-color: lightblue;">item 1</div>
+      <div style="background-color: lightcoral;">item 2</div>
+    </div>
+  </body>
+</html>

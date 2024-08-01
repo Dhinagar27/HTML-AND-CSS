@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Grid Exercise
+    </title>
+     <style>
+      .grid-class{
+        display: grid;
+        grid-template-columns:200px 75px;
+        margin-bottom: 10px;
+      }
+      .grid-class2{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 10px;
+      }
+
+      .grid-class3{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        margin-bottom: 10px;
+        column-gap: 10px;
+        row-gap: 10px;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="grid-class">
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightcoral;">75px</div>
+
+      
+    </div>
+
+    <div class="grid-class2">
+      <div style="background-color: lightskyblue;">coll</div>
+      <div style="background-color: lightcoral;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+
+      
+    </div>
+
+
+    <div class="grid-class3">
+
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+      <div style="background-color: lightskyblue;">200px</div>
+
+      
+    </div>
+  </body>
+</html>
