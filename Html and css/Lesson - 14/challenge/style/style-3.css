@@ -1,0 +1,60 @@
+.main-div{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+     
+}
+
+.sidebar-1{
+    background-color: rgb(29, 30, 31);
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.img-1{
+
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  
+}
+.img-2{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.img-3{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+
+.sidebar-2{
+    background-color: rgb(87, 87, 87);
+    width: 200px;
+    font-family: sans-serif;
+    padding: 15px;
+    line-height: 40px;
+    font-size: 18px;
+    color: rgb(184, 181, 181);
+    
+}
+
+.row-1{
+  display: flex;
+  justify-content:space-between;
+  font-weight: bold;
+  color: rgb(219, 218, 218);
+}

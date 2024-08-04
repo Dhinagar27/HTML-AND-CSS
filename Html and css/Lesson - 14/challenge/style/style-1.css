@@ -1,0 +1,63 @@
+.sidebar{
+  background-color: lightblue;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+}
+
+.overlay{
+
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.middle{
+  background-color: white;
+  font-family: sans-serif;
+  
+  flex-direction: column;
+  width: 400px;
+  border-radius: 10px;
+  height: 150px;
+  
+
+ 
+ 
+ 
+ 
+}
+.title{
+  font-size: 20px;  
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 10px;
+  
+  
+  
+ 
+
+}
+
+.add{
+  
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: px;
+ 
+
+}
+button{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+ 
