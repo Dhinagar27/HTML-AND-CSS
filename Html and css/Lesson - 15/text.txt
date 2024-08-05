@@ -1,0 +1,17 @@
+Position Absolute and Relative
+
+    Position fixed is used to place the element in the browser window
+    and then Position Absolute will move along with the pages
+
+
+    if the Position Absolute element is inside the Position fixed element the Absolute will order 
+    inside the fixed position 
+
+
+    if we want a element inside a element the Absolute are used 
+
+
+    z-index are used to put the element in front on the web pages 
+    z-index: 1;
+
+    heigher index will be show in front
